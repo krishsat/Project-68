@@ -1,37 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>School website-1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="style.css">
-    <script src=""></script>
+
 </head>
 
 <body>
-    <nav class="navbar-inverse my_nav_bar">
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my_navbar">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="#">Girraween Public School</a>
         </div>
-        <div class="collapse navbar-collapse" id="my_navbar">
+
+        <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-                <li> <a href="#campuslife">Campus Life</a></li>
-                <li> <a href="#achievments">Achievments</a></li>
-                <li> <a href="#whatsnew">What's New</a></li>
-                <li> <a href="#alumni">Alumni</a></li>
-                <li> <a href="#contactus">Contact Us</a></li>
+                <li><a href="#campuslife">Campus Life</a></li>
+                <li><a href="#achievments">Achievments</a></li>
+                <li><a href="#whatsnew">What's New</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+                <li><a href="#contactus">Contact Us</a></li>
             </ul>
         </div>
     </nav>
     <div class="container">
-    <div class="announcement">
-        <marquee id="marqueestyle" onmouseover="this.stop();" onmouseout="this.start();"></marquee>
+        <div class="announcement">
+            <marquee id="marqueestyle" onmouseover="this.stop();" onmouseout="this.start();">
+                *** Feel free to comment on girraweenpublicschool@gmail.com ***
+            </marquee>
+        </div>
+        <iframe width="1274" height="721" src="https://www.youtube.com/embed/CsgUIPNnkpI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactus">
+            <h1 class="text-capitalize">contact us</h1>
+        </div>
+        <div class="map col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.5303183365018!2d150.94810101574348!3d-33.79862512285259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b1298743836f08d%3A0x94870a1df64ceb5!2sGirraween%20Public%20School!5e0!3m2!1sen!2sau!4v1631432673057!5m2!1sen!2sau" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="Details">
+            <img class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4" src="https://girraween-p.schools.nsw.gov.au/content/dam/doe/sws/schools/g/girraween-p/localcontent/glenn_walker_principal.jpg.thumb.1280.1280.jpg">
+            <h2>Principal Name:</h2>
+            <h3>Glenn Walker</h3>
+            <div class="contact_1">
+                <a href="mailto:girraweenpublicschool@gmail.com?Subject=Hi">
+                    <h4><i class="fa fa-envelope"></i>&nbsp;&nbsp;Girraweenpublicschool@gmail.com</h4>
+                </a>
+
+                <a href="#">
+                    <h4><i class="fa fa-instagram"></i>&nbsp;&nbsp;girraweenpublicschoolid</h4>
+                </a>
+
+                <a href="#">
+                    <h4><i class="fa fa-phone-square"></i>&nbsp;&nbsp;123456789</h4>
+                </a>
+            </div>
         </div>
     </div>
 </body>
